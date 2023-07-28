@@ -5,15 +5,14 @@ I have got a Spark based big data processing system up and running, got it up an
 ## Table of Contents
 
 1. [Introduction](#introduction)
-* [TreeSpark tool](#treespark-tool)
+2. [TreeSpark tool](#treespark-tool)
+3. [Work done](#work-done)
+    - [I. Enviroment](#i-enviroment)
+    - [II. Data generation](#ii-data-generation)
+    - [III. Performance analysis](#iii-performance-analysis)
+    - [IV. Data validation](#iv-data-validation)
+4. [Additional Resources](#additional-resources)
 
-2. [Work done](#work-done)
-I. [Enviroment](#enviroment)
-II. [Data generation](#data-generation)
-III. [Performance analysis](#performance-analysis)
-IV. [Data validation]
-
-3. [Additional Resources](#additional-resources)
 
 ## 1. Introduction
 
@@ -23,7 +22,7 @@ The tutor assigned to the internship collaborated with members of the Animal Rep
 
 In this internship we worked on the TreeSpark framework, which is still in the development and testing phase. The objective was to continue the work on TreeSpark, mainly through functionality testing and performance measurement. Based on these objectives, the following tasks were carried out: execution environment configuration, error detection, data generation for tests, performance analysis, validation of the data, among other tasks.
 
-### TreeSpark tool
+## 2. TreeSpark tool
 
 TreeSpark is an open source tool to carry out progeny analysis and provides functionality that allows simple access to the information of the individuals and their relations both as progenitors and descendants. This tool is developed as a Python module, which in turn inherits the distributed processing features of Spark, allowing it to process large volumes of progeny information.
 
