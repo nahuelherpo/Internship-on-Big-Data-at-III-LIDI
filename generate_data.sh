@@ -1,9 +1,19 @@
 #!/bin/bash
 #
-# Generate datesets for the queries
+# Random Database Generator
 #
-# Autor: Herpo Nahuel
-# Dec. 2022
+# Author: Herpo Nahuel
+#
+# Date: Dec, 2022
+#
+#
+# This script generates  a random database for later
+# queries. The database contains two tables: cow and
+# production.  The  cows  have a family relationship
+# (in the form of a tree),  where each cow that is a
+# mother has associated records  of milk production.
+# For more details, see the README.MD file.
+#
 #
 
 ##########################################################

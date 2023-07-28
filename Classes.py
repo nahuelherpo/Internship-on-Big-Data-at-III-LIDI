@@ -1,3 +1,13 @@
+"""
+TreeSpark Classes
+
+Author: Paula López
+Date: Oct, 2021
+Site: https://gitlab.com/Danikawaii/treespark
+
+"""
+
+
 from pyspark.sql.types import *
 from pyspark.sql import Row as Row
 from functools import reduce

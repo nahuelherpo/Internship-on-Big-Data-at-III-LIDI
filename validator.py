@@ -1,9 +1,16 @@
 #
-# Validator of solutions (sequential vs distributed)
+# Results validator
 #
 # Author: Herpo Nahuel
-# Feb. 2023
 #
+# Date: Feb, 2023
+#
+# This script validates the TreeSpark solution,
+# comparing its output  with  that  produced by
+# the program using Pandas.
+#
+#
+
 
 import pandas as pd
 from datetime import datetime

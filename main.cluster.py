@@ -1,8 +1,9 @@
 #
-# Distributed solution to run on the cluster
+# Distributed solution to run on the lab cluster
 #
 # Author: Herpo Nahuel
-# Dec. 2022
+#
+# Date: Dec, 2022
 #
 
 from pyspark import SparkConf, SparkContext

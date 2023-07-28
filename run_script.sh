@@ -1,4 +1,16 @@
 #!/bin/bash
+#
+# Generator launcher
+#
+# Author: Herpo Nahuel
+#
+# Date: Dec, 2022
+#
+#
+# This script runs the database generation script many times,
+# to create 4 databases of different sizes
+#
+#
 
 #Generate files of 100KB, 1MB, 100MB and 1GB...
 ./generate_data.sh 8 2 100

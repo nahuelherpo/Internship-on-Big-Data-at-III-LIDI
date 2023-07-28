@@ -1,8 +1,9 @@
 #
-# Sequential solution to the query
+# Sequential solution to the query using Pandas
 #
-# Autor: Herpo Nahuel
-# Feb. 2023
+# Author: Herpo Nahuel
+#
+# Date: Feb, 2023
 #
 
 import pandas as pd

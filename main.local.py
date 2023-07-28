@@ -1,8 +1,9 @@
 #
-# Distributed solution to run on local
+# Distributed solution to run on local machine
 #
 # Author: Herpo Nahuel
-# Dec. 2022
+#
+# Date: Dec, 2022
 #
 
 from pyspark import SparkConf, SparkContext
