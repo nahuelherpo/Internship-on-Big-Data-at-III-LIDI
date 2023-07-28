@@ -14,7 +14,7 @@ I have got a Spark based big data processing system up and running, got it up an
 4. [Additional Resources](#additional-resources)
 
 
-## 1. Introduction
+## Introduction
 
 The professional internship was carried out at the III-LIDI (LIDI Instituto de Investigaciones Informáticas), Research, Development and Transfer Unit that works in the Faculty of Informatics of the National University of La Plata. Several projects are carried out within the Institute, this work is part of the Intelligent Systems project.
 
@@ -22,12 +22,12 @@ The tutor assigned to the internship collaborated with members of the Animal Rep
 
 In this internship we worked on the TreeSpark framework, which is still in the development and testing phase. The objective was to continue the work on TreeSpark, mainly through functionality testing and performance measurement. Based on these objectives, the following tasks were carried out: execution environment configuration, error detection, data generation for tests, performance analysis, validation of the data, among other tasks.
 
-## 2. TreeSpark tool
+## TreeSpark tool
 
 TreeSpark is an open source tool to carry out progeny analysis and provides functionality that allows simple access to the information of the individuals and their relations both as progenitors and descendants. This tool is developed as a Python module, which in turn inherits the distributed processing features of Spark, allowing it to process large volumes of progeny information.
 
 
-## 2. Work done
+## Work done
 
 ### I. Enviroment
 
@@ -53,7 +53,7 @@ The `spark_run.sh` Bash script runs the `main.cluster.py` script with the query 
 
 To validate the results, the `validator.py` script was built in Python. This script compares the results of the solution on Pandas and TreeSpark.
 
-## 3. Additional Resources
+## Additional Resources
 
  * Paper of TreeSpark: [article site](http://sedici.unlp.edu.ar/handle/10915/130340)
  * Poetry tutorial: [site](https://realpython.com/dependency-management-python-poetry/)
